@@ -1,8 +1,8 @@
 from flask import Flask
 from flask_cors import CORS
 
-# for image staore
-UPLOAD_FOLDER = 'PostmanIMG/'             
+# for video store
+UPLOAD_FOLDER = 'VID_STORE/'             
 
 app = Flask(__name__)
 CORS(app)
